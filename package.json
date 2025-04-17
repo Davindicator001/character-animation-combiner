@@ -21,10 +21,10 @@
   },
   "homepage": "character-animation-combiner",
   "scripts": {
+    "start": "serve -s build",
+    "build": "react-scripts build"
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
