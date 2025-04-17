@@ -22,7 +22,7 @@
   "homepage": "character-animation-combiner",
   "scripts": {
     "start": "serve -s build",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
