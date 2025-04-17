@@ -19,7 +19,7 @@
     "serve": "^14.2.4",
     "three": "^0.120.0"
   },
-  "homepage": "/character-animation-combiner",
+  "homepage": ".",
   "scripts": {
     "start": "serve -s build",
     "build": "react-scripts build",
